@@ -1,0 +1,1 @@
+In Objective-C, a subtle bug can arise from the interaction between KVO (Key-Value Observing) and memory management. If an observer is not removed properly before the observed object is deallocated, it can lead to crashes or unexpected behavior.  This is especially tricky when dealing with complex object graphs or asynchronous operations.
